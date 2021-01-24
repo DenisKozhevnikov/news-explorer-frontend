@@ -1,0 +1,132 @@
+.search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 160px 0 80px;
+  background-image: url(../../images/search-background.jpg);
+  background-size: cover;
+}
+
+.search__title {
+  max-width: 608px;
+  margin: 0;
+  font-family: Roboto Slab, Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 64px;
+  color: #FFFFFF;
+}
+
+.search__subtitle {
+  max-width: 548px;
+  margin: 0;
+  margin-left: -59px;
+  padding-top: 32px;
+  padding-bottom: 64px;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.news {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 40px;
+  background-color: #F5F6F7;
+}
+
+.news__title {
+  margin: 0;
+  margin-bottom: 64px;  
+  width: 100%;
+  max-width: 1232px;
+  font-family: Roboto Slab, Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 46px;
+  color: #1A1B22;
+}
+
+.news__show-more {
+  align-self: center;
+  width: 288px;
+  height: 64px;
+  margin-top: 64px;
+  background: #FFFFFF;
+  border: none;
+  border-radius: 80px;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #1A1B22;
+  cursor: pointer;
+  outline: 0;
+  transition: opacity .1s linear;
+}
+
+.news__show-more:hover {
+  opacity: 0.9;
+}
+
+.news__request {
+  margin: 0;
+  max-width: 326px;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #B6BCBF;
+  text-align: center;
+}
+
+.news__not-found {
+  margin: 31px 0 16px;
+  font-family: Roboto Slab, Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 30px;
+  color: #1A1B22;
+}
+
+@media screen and (max-width: 768px) {
+  .search {
+    padding: 104px 0 48px;
+  }
+
+  .search__title {
+    width: 100%;
+    max-width: 440px;
+    padding-top: 37px;
+    padding-right: 40px;
+    font-size: 36px;
+    line-height: 40px;
+    box-sizing: border-box;
+  }
+
+  .search__subtitle {
+    max-width: 440px;
+    margin-left: 0px;
+    padding-top: 16px;
+    padding-bottom: 48px;
+  }
+} 
+
+@media screen and (max-width: 650px) {
+  .news {
+    padding: 80px 16px;
+  }
+
+  .search {
+    padding: 86px 16px 32px;
+  }
+
+  .search__title {
+    padding-right: 0px;
+  }
+
+  .search__subtitle {
+    padding-bottom: 84px;
+  }
+} 

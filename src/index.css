@@ -1,0 +1,9 @@
+@import url('./vendor/normalize.css');
+@import url('./fonts/inter.css');
+
+
+.root {
+  position: relative;
+  max-width: 1440px;
+  margin: 0 auto;
+}
