@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 160px 0 80px;
+  padding: 160px 0 55px;
   background-image: url(../../images/search-background.jpg);
   background-size: cover;
 }
@@ -35,6 +35,10 @@
   align-items: center;
   padding: 80px 40px;
   background-color: #F5F6F7;
+}
+
+.news_disabled {
+  display: none;
 }
 
 .news__title {
@@ -91,8 +95,20 @@
 }
 
 @media screen and (max-width: 768px) {
+  .news {
+    padding: 40px
+  }
+
+  .news__title {
+    margin-bottom: 32px;
+  }
+
+  .news__show-more {
+    margin-top: 32px;
+  }
+
   .search {
-    padding: 104px 0 48px;
+    padding: 104px 0 23px;
   }
 
   .search__title {
@@ -115,11 +131,19 @@
 
 @media screen and (max-width: 650px) {
   .news {
-    padding: 80px 16px;
+    padding: 40px 16px 32px;
+  }
+
+  .news__title {
+    margin-bottom: 24px;
+  }
+
+  .news__show-more {
+    margin-top: 15px;
   }
 
   .search {
-    padding: 86px 16px 32px;
+    padding: 86px 16px 7px;
   }
 
   .search__title {

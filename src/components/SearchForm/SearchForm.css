@@ -1,3 +1,8 @@
+.search-form {
+  position: relative;
+  padding-bottom: 25px;
+}
+
 .search-form__input {
   width: 377px;
   padding: 20px 205px 20px 23px;
@@ -9,10 +14,27 @@
   font-size: 16px;
   line-height: 22px;
   color: #1A1B22;
+  transition: all .1s linear;
 }
 
 .search-form__input::placeholder {
   color: #B6BCBF;
+}
+
+.search-form__input:focus {
+  border: 1px solid #2F71E5;
+}
+
+.search-form__error {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-family: Inter, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  color: #FF0000;
+  width: 100%;
+  text-align: center;
 }
 
 .search-form__button {
