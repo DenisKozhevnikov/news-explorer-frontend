@@ -1,4 +1,4 @@
-## Ссылки на api
+## Ссылки на сайт
 * #### [https://denisk.students.nomoreparties.xyz/](https://denisk.students.nomoreparties.xyz/)
 * #### [https://www.denisk.students.nomoreparties.xyz/](https://www.denisk.students.nomoreparties.xyz/)
 
