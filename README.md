@@ -1,3 +1,12 @@
+## Ссылки на api
+* #### [https://denisk.students.nomoreparties.xyz/](https://api.denisk.students.nomoreparties.xyz/)
+* #### [https://www.denisk.students.nomoreparties.xyz/](https://www.api.denisk.students.nomoreparties.xyz/)
+
+## IP адрес сервера
+* 178.154.235.86
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
