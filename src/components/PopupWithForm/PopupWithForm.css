@@ -93,13 +93,15 @@
 
 .form__error {
   position: absolute;
-  bottom: 0;
+  bottom: -15px;
   left: 0;
+  height: 30px;
   font-family: Inter, Arial, sans-serif;
   display: block;
   font-size: 12px;
   line-height: 15px;
   color: #FF0000;
+  overflow: hidden;
 }
 
 .form__button {
